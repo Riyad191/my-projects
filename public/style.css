@@ -1,0 +1,261 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.countainer {
+  width: 900px;
+  /* height: 600px; */
+}
+@media (max-width: 420px) {
+  .countainer {
+    width: 400px;
+  }
+}
+
+#title {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 3px black;
+  font-size: 40px;
+  background-color: black;
+  color: yellow;
+}
+@media (max-width: 420px) {
+  #title {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 3px black;
+    font-size: 26px;
+    background-color: black;
+    color: yellow;
+  }
+}
+.info {
+  height: 70px;
+  width: 100%;
+  background: yellow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  border: black solid 3px;
+}
+@media (max-width: 420px) {
+  .info {
+    height: 60px;
+    width: 100%;
+    background: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    padding: 0 20px;
+    border: black solid 3px;
+    text-align: center;
+  }
+}
+
+#hero {
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: solid 3px black;
+  background-color: yellow;
+}
+@media (max-width: 420px) {
+  #hero {
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: solid 3px black;
+    background-color: yellow; */
+  }
+}
+
+#hero1 {
+  font-size: 50px;
+  color: rgb(218, 183, 168);
+}
+@media (max-width: 420px) {
+  #hero1 {
+    font-size: 30px;
+    color: rgb(218, 183, 168);
+  }
+}
+
+#hero2 {
+  margin-bottom: 50px;
+}
+@media (max-width: 420px) {
+  #hero2 h1 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 420px) {
+  #hero2 h2 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 420px) {
+  #hero2 {
+    margin-bottom: 20px;
+  }
+}
+
+#hero3 {
+  font-size: 50px;
+  color: rgb(171, 230, 171);
+}
+@media (max-width: 420px) {
+  #hero3 {
+    font-size: 30px;
+    color: rgb(171, 230, 171);
+  }
+}
+
+#gameCounter {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  border: solid 3px black;
+  height: 300px;
+}
+@media (max-width: 420px) {
+  #gameCounter {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    border: solid 3px black;
+    height: 300px;
+  }
+}
+
+.first {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+.second {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+button {
+  outline: none;
+  cursor: pointer;
+}
+.first button,
+.second button {
+  padding: 26px;
+  border-radius: 10px;
+  font-size: 28px;
+  text-decoration: none;
+  color: black;
+}
+@media (max-width: 420px) {
+  .first button,
+  .second button {
+    padding: 18px;
+
+    border-radius: 10px;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+  }
+}
+
+.btn {
+  padding: 10px 30px;
+
+  border: solid black 3px;
+  border-radius: 30px;
+  font-size: 20px;
+  text-decoration: none;
+  color: yellow;
+  background-color: black;
+}
+@media (max-width: 420px) {
+  .btn {
+    padding: 8px 12px;
+
+    border: solid black 3px;
+    border-radius: 30px;
+    font-size: 16px;
+    text-decoration: none;
+    color: yellow;
+    background-color: black;
+  }
+}
+@media (max-width: 420px) {
+  .play {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    height: 100px;
+    border: solid 3px rgb(0, 0, 0);
+  }
+}
+.play {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  height: 100px;
+  border: solid 3px rgb(0, 0, 0);
+}
+.bttn {
+  padding: 10px 30px;
+
+  border: solid black 3px;
+  border-radius: 30px;
+  font-size: 20px;
+  text-decoration: none;
+  color: yellow;
+  background-color: black;
+}
+@media (max-width: 420px) {
+  .bttn {
+    padding: 8px 12px;
+
+    border: solid black 3px;
+    border-radius: 30px;
+    font-size: 16px;
+    text-decoration: none;
+    color: yellow;
+    background-color: black;
+  }
+}
+
+.givenTitle {
+  color: black;
+  font-size: 40px;
+}
+.given {
+  font-size: 50px;
+  margin-left: 20px;
+  color: black;
+}
+@media (max-width: 420px) {
+  .given {
+    font-size: 30px;
+    margin-left: 20px;
+  }
+}
