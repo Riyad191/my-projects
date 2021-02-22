@@ -25,7 +25,7 @@ function hex() {
     if (random == 1 || random == 6) {
       // p1.innerHTML = "Congatulations";
       p1.innerText = String.fromCodePoint(0x1f603, 0x1f60d);
-      score.style.color = "green";
+      score.style.color = "rgb(0, 197, 0)";
       p1.disabled = true;
       p2.disabled = true;
       p3.disabled = true;
@@ -33,6 +33,7 @@ function hex() {
       p5.disabled = true;
       p6.disabled = true;
     }
+    givenTitle;
     if (random != 1 && random != 6) {
       p1.innerHTML = String.fromCodePoint(0x1f612);
       p1.style.fontSize = "30px";
@@ -78,7 +79,7 @@ function hex() {
     if (random == 2 || random == 7) {
       // p2.innerHTML = "Congatulations";
       p2.innerText = String.fromCodePoint(0x1f60d, 0x1f618);
-      score.style.color = "green";
+      score.style.color = "rgb(0, 197, 0)";
       p1.disabled = true;
       p2.disabled = true;
       p3.disabled = true;
@@ -130,7 +131,7 @@ function hex() {
     if (random == 3 || random == 0) {
       // p3.innerHTML = "Congatulations";
       p3.innerText = String.fromCodePoint(0x1f970, 0x1f609);
-      score.style.color = "green";
+      score.style.color = "rgb(0, 197, 0)";
       p1.disabled = true;
       p2.disabled = true;
       p3.disabled = true;
@@ -182,7 +183,7 @@ function hex() {
     if (random == 5) {
       // p4.innerHTML = "Congatulations";
       p4.innerText = String.fromCodePoint(0x1f60a, 0x1f970);
-      score.style.color = "green";
+      score.style.color = "rgb(0, 197, 0)";
       p1.disabled = true;
       p2.disabled = true;
       p3.disabled = true;
@@ -234,7 +235,7 @@ function hex() {
     if (random == 8) {
       // p5.innerHTML = "Congatulations";
       p5.innerText = String.fromCodePoint(0x1f929, 0x1f618);
-      score.style.color = "green";
+      score.style.color = "rgb(0, 197, 0)";
       p1.disabled = true;
       p2.disabled = true;
       p3.disabled = true;
@@ -286,7 +287,7 @@ function hex() {
     if (random == 9 || random == 4) {
       // p6.innerHTML = "Congatulations";
       p6.innerText = String.fromCodePoint(0x1f970, 0x1f617);
-      score.style.color = "green";
+      score.style.color = "rgb(0, 197, 0)";
       p1.disabled = true;
       p2.disabled = true;
       p3.disabled = true;
@@ -336,7 +337,7 @@ function hex() {
   if (random == 1) {
     // input.innerHTML = "red";
     input.innerHTML = "#eb3434";
-    givenTitle.style.color = "yellow";
+    givenTitle.style.color = "rgb(51, 51, 51)";
     p1.style.background = "red";
     p2.style.background = "purple";
     p3.style.background = "blue";
@@ -348,7 +349,7 @@ function hex() {
   if (random == 2) {
     // input.innerHTML = "yellow";
     input.innerHTML = "#ebeb34";
-    givenTitle.style.color = "yellow";
+    givenTitle.style.color = "rgb(51, 51, 51)";
     p1.style.background = "red";
     p2.style.background = "yellow";
     p3.style.background = "green";
@@ -360,7 +361,7 @@ function hex() {
   if (random == 3) {
     // input.innerHTML = "green";
     input.innerHTML = "#1b7016";
-    givenTitle.style.color = "yellow";
+    givenTitle.style.color = "rgb(51, 51, 51)";
     p1.style.background = "blue";
     p2.style.background = "red";
     p3.style.background = "green";
@@ -371,7 +372,7 @@ function hex() {
   if (random == 4) {
     // input.innerHTML = "purple";
     input.innerHTML = "#671b6b";
-    givenTitle.style.color = "yellow";
+    givenTitle.style.color = "rgb(51, 51, 51)";
     p1.style.background = "yellow";
     p2.style.background = "green";
     p3.style.background = "red";
@@ -382,7 +383,7 @@ function hex() {
   if (random == 5) {
     // input.innerHTML = "orange";
     input.innerHTML = "#ebb734";
-    givenTitle.style.color = "yellow";
+    givenTitle.style.color = "rgb(51, 51, 51)";
     p1.style.background = "purple";
     p2.style.background = "green";
     p3.style.background = "yellow";
@@ -393,7 +394,7 @@ function hex() {
   if (random == 6) {
     // input.innerHTML = "green";
     input.innerHTML = "#1b7016";
-    givenTitle.style.color = "yellow";
+    givenTitle.style.color = "rgb(51, 51, 51)";
     p1.style.background = "green";
     p2.style.background = "purple";
     p3.style.background = "red";
@@ -404,7 +405,7 @@ function hex() {
   if (random == 7) {
     // input.innerHTML = "red";
     input.innerHTML = "#eb3434";
-    givenTitle.style.color = "yellow";
+    givenTitle.style.color = "rgb(51, 51, 51)";
     p1.style.background = "orange";
     p2.style.background = "red";
     p3.style.background = "yellow";
@@ -415,7 +416,7 @@ function hex() {
   if (random == 8) {
     // input.innerHTML = "blue";
     input.innerHTML = "#0010f7";
-    givenTitle.style.color = "yellow";
+    givenTitle.style.color = "rgb(51, 51, 51)";
     p1.style.background = "green";
     p2.style.background = "yellow";
     p3.style.background = "orange";
@@ -427,7 +428,7 @@ function hex() {
   if (random == 9) {
     // input.innerHTML = "orange";
     input.innerHTML = "#ebb734";
-    givenTitle.style.color = "yellow";
+    givenTitle.style.color = "rgb(51, 51, 51)";
     p1.style.background = "yellow";
     p2.style.background = "red";
     p3.style.background = "purple";
@@ -438,7 +439,7 @@ function hex() {
   if (random == 0) {
     // input.innerHTML = "red";
     input.innerHTML = "#eb3434";
-    givenTitle.style.color = "yellow";
+    givenTitle.style.color = "rgb(51, 51, 51)";
     p1.style.background = "yellow";
     p2.style.background = "purple";
     p3.style.background = "red";
