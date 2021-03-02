@@ -1,4 +1,4 @@
-/* * {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -179,7 +179,7 @@ section {
   color: white;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 968px) {
   .big {
     display: none;
   }
@@ -188,7 +188,7 @@ section {
   }
   #slider {
     /* border: solid red 1px; */
-    height: 550px;
+    height: 563px;
     width: 300px;
     margin-bottom: 30px;
     /* display: none; */
@@ -214,14 +214,14 @@ section {
   }
   .description {
     margin-top: 10px;
-    height: 120px;
+    height: 150px;
     width: 90%;
 
     padding: 0 10px;
   }
   .description h1 {
     font-size: 18px;
-    margin-bottom: 6px;
+    margin-bottom: 5px;
   }
 
   .description p {
@@ -286,4 +286,4 @@ section {
 
     font-size: 16px;
   }
-} */
+}
