@@ -287,3 +287,108 @@ section {
     font-size: 16px;
   }
 }
+@media (min-width: 768px) and (max-width: 1280px) {
+  .big {
+    display: block;
+  }
+  .phone {
+    display: none;
+  }
+  #slider {
+    /* border: solid red 1px; */
+    height: 370px;
+    width: 800px;
+    margin-bottom: 30px;
+    /* display: none; */
+  }
+
+  .title {
+    font-size: 26px;
+    padding: 14px 26px;
+
+    border: solid 3px rgb(255, 187, 124);
+  }
+  body {
+    height: 100%;
+    background: rgb(2, 0, 94);
+    padding: 0 10px;
+  }
+  section {
+    height: 100%;
+    width: 100%;
+    margin: 10px;
+    padding: 50px 0;
+    border: solid rgb(255, 124, 124) 5px;
+  }
+  .description {
+    margin-top: 10px;
+    height: 150px;
+    width: 90%;
+
+    padding: 0 10px;
+  }
+  .description h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+
+  .description p {
+    font-size: 17px;
+  }
+
+  .languages {
+    margin: 40px 0;
+    height: 100%;
+    width: 90%;
+
+    padding: 30px 0;
+  }
+  .icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 30px;
+
+    flex-wrap: wrap;
+    /* border: solid 1px red; */
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .icons h3 {
+    font-size: 14px;
+  }
+  .img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 6px 20px 0;
+  }
+
+  .languages h1 {
+    font-size: 20px;
+    text-align: center;
+    padding: 0 10px;
+  }
+
+  .view {
+    margin: 40px 0 0;
+    border-radius: 10px;
+    height: 120px;
+    width: 90%;
+    background: rgb(255, 124, 124);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 10px;
+  }
+
+  .heroku,
+  .github {
+    height: 30px;
+
+    font-size: 16px;
+  }
+}
