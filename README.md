@@ -1,6 +1,6 @@
 # My Portfolio
 
-This is a portfolio website that I built to have all my projects in one place, providing details about each project like programming languages and technologies used for project, project description and viewing project on the Heroku and GitHub by clicking one button. 
+This is a portfolio website that I built to have all my projects in one place, providing details about each project like programming languages and technologies used for project, project description and viewing project on the cloud (Heroku) and GitHub with one click. 
 
 View Website on Heroku:
 https://projects--portfolio.herokuapp.com/
