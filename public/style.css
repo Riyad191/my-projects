@@ -60,12 +60,12 @@ body {
   }
 }
 #slider {
-  height: 600px;
-  width: 1200px;
+  height: 500px;
+  width: 1000px;
 }
 
 .title {
-  font-size: 50px;
+  font-size: 40px;
   padding: 20px 40px;
 
   border: solid 5px rgb(255, 187, 124);
@@ -92,7 +92,7 @@ section {
 .description {
   margin-top: 15px;
   height: 120px;
-  width: 1200px;
+  width: 1000px;
   background: rgb(255, 124, 124);
   display: flex;
   justify-content: flex-start;
@@ -115,7 +115,7 @@ section {
 .languages {
   margin: 40px 0;
   height: 170px;
-  width: 1200px;
+  width: 1000px;
   background: rgb(255, 124, 124);
 
   display: flex;
@@ -134,20 +134,20 @@ section {
   margin-top: 15px;
 }
 .img {
-  height: 70px;
-  width: 70px;
+  height: 60px;
+  width: 60px;
   border-radius: 50%;
 }
 
 .languages h1 {
-  font-size: 30px;
+  font-size: 26px;
 }
 
 .view {
   margin: 40px 0 0;
   border-radius: 10px;
   height: 120px;
-  width: 1200px;
+  width: 1000px;
   background: rgb(255, 124, 124);
   display: flex;
   justify-content: space-evenly;
